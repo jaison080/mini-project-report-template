@@ -1,0 +1,221 @@
+\documentclass[11pt]{report}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{fancyhdr}
+%\usepackage{fullpage}
+\usepackage{float}
+\usepackage{xspace}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+%\usepackage{algorithmicx}
+
+\begin{document}
+\renewcommand\bibname{References}
+\pagestyle{fancy}
+%\fancyheadz{}
+\fancyfoot{}
+\fancyfoot[c]{\thepage}
+\fancyfoot[l]{CSD334-Mini Project 2022}
+\lhead{abcd}
+\renewcommand{\chaptermark}[1]{
+\markboth{\thechapter.\ #1}{}} 
+\renewcommand{\headrulewidth}{0.1pt}
+\fancyhead[r]{\slshape \leftmark}
+\addtolength{\headheight}{\baselineskip}
+
+\lhead{\nouppercase{\rightmark}}
+\rhead{\nouppercase{\leftmark}}
+%\lhead{hhhhh}
+%\fancyhead[LO,RE]{\slshape \leftmark}
+%\bibliographystyle{plain}
+\title {Project Name}
+\author {Author}
+%\maketitle
+
+\begin{titlepage}
+\begin{center}
+
+%\topmargin100pt
+\Huge{\textbf{Project Name}}\\
+\large{\textbf{\\CSD334-Mini Project 2022\\}}
+\vspace{1.2in}
+\Large{\textbf{Name}}\\ 
+\Large{\textbf{Roll No\\
+Register Mo\\
+}}	\hspace{.1in}	
+
+\Large{\textbf{
+\\B. Tech. Computer Science \& Engineering
+}}
+
+
+\vspace{.6in}
+\begin{figure}[h]
+\begin{center}
+%\epsfig{width=1in, file=embN1.jpg}
+\epsfig{width=1in, file=logo.jpg}
+% If you have access to better quality logo image, that may be used, but all the groups should use the same image
+\end{center}
+\end{figure}
+%\vspace{.2in}
+\textbf{
+Department of Computer Engineering\\
+Govt. Model Engineering College Thrikkakara\\
+Thrikkakara, Kochi 682021\\
+Phone: +91.484.2575370\\
+http://www.mec.ac.in \\
+hodcs@mec.ac.in
+}
+\end{center}
+\end{titlepage}
+
+
+
+
+\begin{titlepage}
+\begin{center}
+\Large{\textbf{Govt. Model Engineering College Thrikkakara}}\\
+\Large{\textbf{\\Dept. of Computer Engineering}}\\
+\end{center}
+\begin{figure}[h]
+\begin{center}
+\epsfig{width=1in, file=logo.jpg}
+\end{center}
+\end{figure}
+\begin{center}
+\Large{\textbf{C E R T I F I C A T E}}\\
+\vspace{.1in}
+\end{center}
+This is to certify that, this report titled \textbf{\textit {Project Name}} is a bonafide record of the work done by
+{\textbf{Roll No
+Register No
+}{\textbf{Name}}} {{, \textbf{Fifth Semester} B. Tech. Computer Science \& Engineering }}
+student,  for the course work in \textbf{CSD334-Mini Project 2022} which is the Mini Project Work, under our guidance and supervision, in partial 
+ fulfillment of the requirements for the award of the degree, B. Tech. Computer 
+Science  and Engineering of \textbf{APJ Abdul Kalam University }.
+\vspace{.1in}
+\begin{tabbing}
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxx\= \kill
+
+			\>				Coordinator
+\\
+\\
+\\
+  \>Veena Briji Philip\\
+	\>Assistant Professor
+	
+	 \\
+	\>	Computer Engineering
+\end{tabbing}
+\vspace{.08in}
+%
+\begin{tabbing}
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxx\= \kill
+			\>Head of the Department \\
+\\
+\\
+\today
+\>Dr.Preetha Theresa Joy\\
+\>Professor\\
+\>Computer Engineering\\
+\end{tabbing}
+\end{titlepage}
+
+\begin{center}
+	\thispagestyle{empty}
+	\LARGE{\textbf{Acknowledgements}}\\[1cm]
+\end{center}
+\linespread{1.13}
+\large{\paragraph{}We are profoundly grateful to \textbf{Mrs.Veena Briji Philip } for her expert guidance
+	and continuous encouragement throughout to see that this project rights its
+	target since its commencement to its completion.}
+\large{\paragraph{}We would like to express deepest appreciation towards \textbf{Dr.Jacob Thomas V},
+	Principal, Govt. Model Enginnering College , Thrikkakara, \textbf{Prof. Preetha Theresa Joy}, 
+	Head of Department of Computer Engineering and \textbf{Mrs.Veena Briji Philip }, Project Coordinator whose
+	invaluable guidance supported us in completing this project.}
+\large{\paragraph{}At last we must express our sincere heartfelt gratitude to all the staff members
+	of Computer Engineering Department who helped me directly or indirectly during this course of work.}
+\begin{flushright}
+	{
+		Team Member A\\
+		Team Member B\\
+		Team Member C
+	}
+\end{flushright}
+\newpage
+ 
+\begin{abstract}
+\pagenumbering{roman}
+Abstract
+type your abstract
+\end{abstract}
+
+\tableofcontents
+
+
+
+
+
+\chapter {Introduction}
+\pagenumbering{arabic}
+\label{intro}
+Introduction
+
+\section{Proposed Project}
+\subsection{\label{ps}Problem Statement}
+This should clearly, without any scope for differing interpretations later, state the aim of the project.
+\subsection{Proposed Solution}
+This should clearly, without any scope for differing interpretations later, state the methods you are suggesting to achieve the result.
+\chapter{\label{work}Report of Preparatory Work }
+%\section{\label{work}Report of Work Done}
+\subsection{Literature Survey Report}
+\subsection{System Study Report}
+
+%...............................................................................................
+
+
+\chapter{Project Design}
+ \label{xx}
+
+\section{High Level Design}
+\section{Block Diagrams}
+
+
+\section{Algorithms}
+
+\section{Hardware \& Software Requirements}
+\section{Work Schedule}
+
+
+ \chapter{Conclusion}
+ \label {con}
+
+
+ 
+
+   
+%\begin{thebibliography}{999}
+%\addcontentsline{toc}{chapter}{References}
+%\bibitem{sas}  M Sasikumar, Dinesh Shikkare, P Ravi Prakash: 
+%	Introduction to Parallel Processing: First Edition, PHI, New Delhi, 2000
+%\bibitem{raj} V Rajaraman. S SivaRama Murthy: 
+%	Parallel Computer Architecture and Programming: PHI, New Delhi, 2000
+%\bibitem{dav} David HM Spector: Building Linux Clusters: O'Reilly \& associates, 
+%CA, USA, 2000
+%\bibitem{bar} Thomas C Bartee: Introduction to Computer Science: Third Edition, 
+%McGraw-Hill, New York, 1975
+%\bibitem{nlb} http://www.netlib.org/pvm3/: PVM software source
+%
+%\end{thebibliography}
+\begin{thebibliography}{999}
+\addcontentsline{toc}{chapter}{References}
+
+\bibitem{re1} Shih-Chia Huang, Fan-Chieh Cheng, and Yi-Sheng Chiu, "\textit{Efficient Contrast Enhancement Using Adaptive Gamma Correction With Weighting Distribution}", IEEE TRANSACTIONS ON IMAGE PROCESSING, VOL. 22, NO. 3,pp.1032-1041, MARCH 2013
+\bibitem{re2} Rafael C. Gonzalez and Richard E. Woods. \textit{Digital Image Processing}. Pearson Education, Third edition, 2009
+\bibitem{re3} William K. Pratt, \textit{Digital Image Processing: PIKS Inside},  Wiley-Interscience Publication, Third Edition.  2001 
+
+\end{thebibliography}
+
+
+\end{document}

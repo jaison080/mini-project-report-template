@@ -1,0 +1,18 @@
+\contentsline {paragraph}{}{1}{}%
+\contentsline {paragraph}{}{1}{}%
+\contentsline {paragraph}{}{1}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Proposed Project}{1}{}%
+\contentsline {subsection}{\numberline {1.1.1}Problem Statement}{1}{}%
+\contentsline {subsection}{\numberline {1.1.2}Proposed Solution}{1}{}%
+\contentsline {chapter}{\numberline {2}Report of Preparatory Work }{2}{}%
+\contentsline {subsection}{\numberline {2.0.1}Literature Survey Report}{2}{}%
+\contentsline {subsection}{\numberline {2.0.2}System Study Report}{2}{}%
+\contentsline {chapter}{\numberline {3}Project Design}{3}{}%
+\contentsline {section}{\numberline {3.1}High Level Design}{3}{}%
+\contentsline {section}{\numberline {3.2}Block Diagrams}{3}{}%
+\contentsline {section}{\numberline {3.3}Algorithms}{3}{}%
+\contentsline {section}{\numberline {3.4}Hardware \& Software Requirements}{3}{}%
+\contentsline {section}{\numberline {3.5}Work Schedule}{3}{}%
+\contentsline {chapter}{\numberline {4}Conclusion}{4}{}%
+\contentsline {chapter}{References}{5}{}%
